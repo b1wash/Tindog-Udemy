@@ -1,0 +1,201 @@
+body {
+  font-family: 'Montserrat-thin', sans-serif;
+  /* font-family: "Montserrat"; */
+  text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+    /* font-family: "Montserrat-Bold"; */
+
+}
+p {
+  font-family: 'Montserrat-thin', sans-serif;
+  color: gray;
+  font-size: 1.1rem;
+}
+
+/* Heading */
+.big-heading{
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  /* padding: 3% 15% 7%; */
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.white-section {
+    background-color: #fff;
+
+}
+/* Navigation bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.18rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+ #title {
+     text-align: left;
+ }
+
+
+#title .container-fluid {
+  padding: 3% 15%;
+
+
+}
+
+/* Title img */
+.img-div {
+  position: relative;
+}
+
+.iphone-img {
+  /* position: relative;
+  right: 150px; */
+  /* margin-top: 90px; */
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  /* right: 30%; */
+}
+
+/* Features Section */
+#features {
+  /* padding-top: 100px; */
+
+  position: relative;
+  z-index: 1
+}
+
+.feature-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.fa-icon {
+  color: #ef8172;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.fa-icon:hover {
+  color: #ff4c68;
+}
+
+.text-below {
+  color: #8f8f8f;
+}
+
+.col-container {
+  padding: 5%;
+  /* padding: 3% 0; */
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  /* font-weight: bold; */
+  font-size: 3rem;
+  line-height: 1.5;
+font-family: "Montserrat-Bold";
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Media Query */
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  /* In this case this means when the screen size is 992px or below the position of iphone img will be change into static */
+  /* rotate(0) is to center the rotation of an object; in this case the phone image will be perfectly rotated. */
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.icons {
+  /* font-size: 1.2rem;
+  line-height: 2;
+  padding: 0.5%; */
+  margin: 20px 10px;
+
+}
